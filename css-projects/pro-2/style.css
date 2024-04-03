@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 90px;
+    padding-top: 150px;
+    gap: 16px;
+}
+#left{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#left h1{
+    font-size: 120px;
+    font-weight: 500;
+    font-family: work sans ;
+    line-height: 1;
+}
+#color{
+    
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px;
+    border: 1px solid black;
+    margin: 3px ;
+}
+#color h5{
+    font-size: 20px;
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(111, 207, 21);
+    border-radius: 50%;
+}
+#left h2{
+margin-top: 50px;
+font-size: 30px;
+margin-bottom: 10px;
+}
+#left p{
+    font-size: 20px;
+    width: 70%;
+    color: #444;
+    line-height: 1.2;
+}
+#right{
+    height: 100%;
+    width: 30%;
+    position: relative;
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+#right-top h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: work sans;
+}
+#right-top h5{
+    font-size: 16px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+#right img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.back-bag{
+    height: 180px;
+    width: 180px;
+    background: #171618;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: -22%;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-bag{
+    font-size: 25px;
+    font-weight: 500;
+}
+.rotated{
+    position: absolute;
+    left: -8%;
+    bottom: 0;
+    transform-origin: 0 0;
+    rotate: -90deg;
+    font-size: 25px;
+    font-weight: 500;
+}
